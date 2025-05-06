@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f5f8f6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #24342e;
+}
+.logo span {
+  color: #666;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+.login {
+  background-color: #508ee0;
+  color:white;
+}
+.register {
+  background-color: transparent;
+  border: 1px solid #508ee0;
+  color: #508ee0;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #e3f1f0, #ffffff);
+  padding: 3rem 2rem;
+  background-image: url('https://images.unsplash.com/photo-1544377710-9e0a3f6e21d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center right;
+  color: #1b4052;
+}
+
+.hero .text {
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.hero h1 span {
+  color: #000;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn-turno {
+  padding: 0.6rem 1rem;
+  background-color: #186322;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.equipo, .especialidades {
+  flex: 1 1 300px;
+  margin: 1rem;
+}
+
+.equipo h2, .especialidades h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #24342e;
+}
+
+.miembros {
+  display: flex;
+  gap: 1rem;
+}
+
+.miembros img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.especialidades a {
+  list-style: disc inside;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.imgmedico { 
+  width: 1200px; 
+  height: 500px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+ }
+
+.imgmedico img { 
+  width: 100%; 
+  height: auto;  /* Para que no se deforme */ 
+  box-sizing: border-box; 
+  max-height: 100%; /* Evita que sobrepase el contenedor */
+}
+
+
+
+
+
+
+
+
+
+
+
